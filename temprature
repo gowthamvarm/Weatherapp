@@ -1,0 +1,13 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const request = require('request');
+const algebra = require('algebra.js');
+
+
+var Fraction = algebra.Fraction;
+var Expression = algebra.Expression;
+var Equation = algebra.Equation;
+
+const app = express()
+
+const apiKey = 'd75576f777ccd2e4da987c77157a631a';
